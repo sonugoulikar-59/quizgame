@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Multipage</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="design">
+        <h5 id="1stplayer_name"></h5><span id="1stplayer_score"></span>
+        <h5 id="2ndplayer_name"></h5><span id="2ndplayer_score"></span></div>
+        <div class="pencil">
+       <center>
+           <h6 id="player_question" style="font-size: 30px; color: darkorange; font-family: monospace;"></h6>
+           <h6 id="player_answer" style="font-size: 30px; color: darkorange; font-family: monospace;"></h6>
+           <div class="fifth">
+               <p>Let's play the Quiz</p>
+        <h4>Number 1</h4>
+           <input type="text" id="fan" class="form_control" placeholder="Enter any Number"><br>
+           <h4>Number 2</h4>
+           <input type="text" id="ac" class="form_control" placeholder="Enter any Number">
+        </div></center><br><br>
+        <center><button onclick= "show()" class="clicker"><b><i>Click here</i></b></button></center><br><br>
+         <center> <div id="functionwrk" class="nothing"></div></center></div>
+         <script src="main2.js"></script>
+    </body>
+    <style>
+        body{
+            background-image: url('bgimg3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .fifth{
+            border: 4px groove darkgreen;
+            background-color: antiquewhite;
+            font-size: 20px;
+            color: crimson;
+            width: 70%;
+            padding: 8px;
+            margin: 50px;
+        }
+        .nothing{
+            height: 200px;
+            width: 60%;
+            margin: 10px;
+            background-color:lightpink;
+            border-radius: 130px;
+        }
+        .pencil{
+            float: left;
+            height: 900px;
+            width: 1000px;
+            margin: 400px;
+            border-radius: 300px;
+            border: 10px groove #bd1ca2;
+        }
+        .clicker{
+            height:45px;
+            width: 40%;
+            border-radius: 15px;
+            background-color: chartreuse;
+            font-size: 20px;
+            color: blueviolet;
+        }
+        .clicker:hover{
+            background-color: aquamarine;
+        }
+        .design{
+            font-size:15px;
+            color: forestgreen;
+            background-color:blanchedalmond;
+            height: 140px;
+            width: 80px;
+            border-radius:10px;
+            padding: 5px;
+        }
+    </style>
+</html>

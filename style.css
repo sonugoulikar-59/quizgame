@@ -1,0 +1,60 @@
+body{
+    background-color: azure;
+    background-image: url('google-quiz.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pageone {
+    border: 5px groove darkseagreen;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+input[type="text"], input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid #ccc;
+    background-color:floralwhite;
+    font-size: 20px;
+    color: chocolate;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color:#63e81c;
+    margin-bottom: 5px;
+}
+
+.primary{
+    height: 40px;
+    width: 20px;
+    border-radius:25px;
+    font-size:25px;
+    font-family: monospace;
+    color: brown;
+    background-color: bisque;  
+}
+.primary:hover{
+    background-color:darkkhaki;
+}
+
+h1{
+    font-size: 25px;
+    color: aquamarine;
+    background-color: cadetblue;
+    height: 80px;
+    width: 150px;
+    border-radius: 27px;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    color:#f2e144;
+}
